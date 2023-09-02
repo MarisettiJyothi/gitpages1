@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Combinator Selector Practice</title>
+<style>
+  nav ul{
+    background-color:red;
+}
+.paragraphs{
+    color:violet ;
+    border-top: 1px solid orange;
+    border-right: 1px solid orange;
+    border-left: 1px solid orange;
+    border-bottom: 1px solid orange;
+}
+.links a:nth-child(1){
+     font-weight: bold;
+}
+.links a:nth-child(2){
+     font-weight: bold;
+}
+.paragraphs :nth-child(3){
+    font-size: xx-large;
+}
+.ul{
+    border-bottom: 5px solid black;
+}
+.links a:nth-child(1){
+    color: gold;
+}
+
+section{
+    padding: 40px;
+}
+footer p{
+    border: 2px solid blueviolet;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Welcome to the Combinator Selector Practice</h1>
+</header>
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+2
+<li><a href="#">Services</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+<main>
+<section>
+<h2>About Us</h2>
+<p>We are a web development company...</p>
+</section>
+<section>
+<p><h2>Our Services</h2></p>
+<div class="ul"><ul>
+    <li>Web Design</li>
+    <u><li>Front-end Development</li></u>
+    <li>Back-end Development</li>
+    </ul>
+</div>
+</section>
+</main>
+<div id="additional-info">
+<div class="paragraphs">
+<p>Paragraph 1</p>
+<p>Paragraph 2</p>
+<p>Paragraph 3</p>
+</div>
+3
+<div class="links">
+<a href="#">Link 1</a>
+<a href="#">Link 2</a>
+</div>
+</div>
+<footer>
+<p>&copy; 2023 Combinator Selector Practice</p>
+</footer>
+</body>
+</html>
